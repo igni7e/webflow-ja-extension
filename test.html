@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webflow Extension Test Page</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #4A90E2;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #4A90E2;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 15px 0;
+        }
+        button {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        button:hover {
+            background: #4A90E2;
+            color: white;
+            border-color: #4A90E2;
+        }
+        .ui-element {
+            padding: 10px;
+            margin: 5px 0;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .dynamic-content {
+            min-height: 100px;
+            border: 2px dashed #ccc;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        .info {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Webflow Japanese Translation Extension - Test Page</h1>
+        <p class="info">
+            <strong>Note:</strong> This test page should be accessed from webflow.com domain to activate the extension.
+            For local testing, modify the manifest.json to include your test domain.
+        </p>
+
+        <h2>Basic UI Elements Test</h2>
+        <div class="test-section">
+            <h3>Common Actions</h3>
+            <div class="button-group">
+                <button>Save</button>
+                <button>Cancel</button>
+                <button>Delete</button>
+                <button>Edit</button>
+                <button>Publish</button>
+                <button>Unpublish</button>
+                <button>Duplicate</button>
+                <button>Preview</button>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h3>Webflow Designer Terms</h3>
+            <div class="ui-element">Designer</div>
+            <div class="ui-element">Navigator</div>
+            <div class="ui-element">Style Panel</div>
+            <div class="ui-element">Elements</div>
+            <div class="ui-element">Add Element</div>
+            <div class="ui-element">Add Class</div>
+        </div>
+
+        <div class="test-section">
+            <h3>Layout & Styling</h3>
+            <div class="button-group">
+                <button>Layout</button>
+                <button>Typography</button>
+                <button>Spacing</button>
+                <button>Background</button>
+                <button>Border</button>
+                <button>Effects</button>
+                <button>Transforms</button>
+                <button>Transitions</button>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h3>CMS & Collections</h3>
+            <div class="ui-element">Collections</div>
+            <div class="ui-element">CMS</div>
+            <div class="ui-element">Assets</div>
+            <div class="ui-element">Add Field</div>
+            <div class="ui-element">Create New</div>
+        </div>
+
+        <h2>Common UI Patterns</h2>
+        <div class="test-section">
+            <div class="ui-element">
+                <strong>Settings</strong>
+                <p>Configure your project settings, including SEO Settings and Custom Code.</p>
+            </div>
+            <div class="ui-element">
+                <strong>Publishing</strong>
+                <p>Publish your site to Hosting or Export for manual deployment.</p>
+            </div>
+            <div class="ui-element">
+                <strong>Interactions</strong>
+                <p>Create dynamic animations and transitions for your elements.</p>
+            </div>
+        </div>
+
+        <h2>Element Types</h2>
+        <div class="test-section">
+            <div class="button-group">
+                <button>Section</button>
+                <button>Container</button>
+                <button>Div Block</button>
+                <button>Heading</button>
+                <button>Paragraph</button>
+                <button>Text</button>
+                <button>Link</button>
+                <button>Button</button>
+                <button>Image</button>
+                <button>Video</button>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h3>Form Elements</h3>
+            <div class="button-group">
+                <button>Form Block</button>
+                <button>Input</button>
+                <button>Text Field</button>
+                <button>Text Area</button>
+                <button>Checkbox</button>
+                <button>Radio Button</button>
+                <button>Select</button>
+                <button>Submit Button</button>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h3>Components</h3>
+            <div class="button-group">
+                <button>Navbar</button>
+                <button>Dropdown</button>
+                <button>Tabs</button>
+                <button>Slider</button>
+                <button>Lightbox</button>
+                <button>Symbol</button>
+                <button>Component</button>
+            </div>
+        </div>
+
+        <h2>Responsive Design</h2>
+        <div class="test-section">
+            <div class="button-group">
+                <button>Desktop</button>
+                <button>Tablet</button>
+                <button>Mobile</button>
+                <button>Landscape</button>
+                <button>Portrait</button>
+                <button>Breakpoint</button>
+            </div>
+        </div>
+
+        <h2>Dynamic Content Test</h2>
+        <div class="test-section">
+            <button onclick="addDynamicContent()">Add Dynamic Content</button>
+            <button onclick="clearDynamicContent()">Clear</button>
+            <div id="dynamic-container" class="dynamic-content">
+                <p>Click "Add Dynamic Content" to test MutationObserver functionality.</p>
+            </div>
+        </div>
+
+        <h2>Project Management</h2>
+        <div class="test-section">
+            <div class="ui-element">
+                <strong>Dashboard</strong>
+                <p>View all your Projects and Workspace activity.</p>
+            </div>
+            <div class="ui-element">
+                <strong>Team</strong>
+                <p>Manage Members and Permissions. Invite new team members.</p>
+            </div>
+            <div class="ui-element">
+                <strong>Account</strong>
+                <p>Update your Profile, Plan, and Billing information.</p>
+            </div>
+        </div>
+
+        <h2>Common Actions & States</h2>
+        <div class="test-section">
+            <div class="button-group">
+                <button>Create</button>
+                <button>Rename</button>
+                <button>Copy</button>
+                <button>Paste</button>
+                <button>Undo</button>
+                <button>Redo</button>
+                <button>Search</button>
+                <button>Filter</button>
+                <button>Sort</button>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h3>Status Messages</h3>
+            <div class="ui-element">Loading...</div>
+            <div class="ui-element">Processing...</div>
+            <div class="ui-element">Complete</div>
+            <div class="ui-element">Error: Something went wrong</div>
+            <div class="ui-element">Success! Changes saved.</div>
+            <div class="ui-element">Warning: Please review your settings.</div>
+        </div>
+    </div>
+
+    <script>
+        let counter = 0;
+
+        function addDynamicContent() {
+            counter++;
+            const container = document.getElementById('dynamic-container');
+            const newElement = document.createElement('div');
+            newElement.className = 'ui-element';
+            newElement.innerHTML = `
+                <strong>Dynamic Element ${counter}</strong>
+                <p>This element was added dynamically. Terms like "Add Element", "Settings", and "Publish" should be translated.</p>
+                <div class="button-group">
+                    <button>Edit</button>
+                    <button>Delete</button>
+                    <button>Duplicate</button>
+                </div>
+            `;
+            container.appendChild(newElement);
+        }
+
+        function clearDynamicContent() {
+            const container = document.getElementById('dynamic-container');
+            container.innerHTML = '<p>Click "Add Dynamic Content" to test MutationObserver functionality.</p>';
+            counter = 0;
+        }
+
+        // Add some elements after page load to test observer
+        setTimeout(() => {
+            const container = document.getElementById('dynamic-container');
+            const delayed = document.createElement('div');
+            delayed.className = 'info';
+            delayed.textContent = 'This element was added 2 seconds after page load. Text like "Settings" and "Designer" should still be translated.';
+            container.appendChild(delayed);
+        }, 2000);
+    </script>
+</body>
+</html>
