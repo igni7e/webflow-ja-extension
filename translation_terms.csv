@@ -68,3 +68,277 @@ View Web Permissions,Web権限を表示
 Remove from Chrome,Chrome から削除
 Options,オプション
 Unpin,固定を解除
+Frame,フレーム
+Frames,フレーム
+Component,コンポーネント
+Components,コンポーネント
+Instance,インスタンス
+Instances,インスタンス
+Variant,バリアント
+Variants,バリアント
+Layer,レイヤー
+Layers,レイヤー
+Group,グループ
+Groups,グループ
+Grouping,グループ化中
+Grouped,グループ化済み
+Ungroup,グループ解除
+Auto layout,オートレイアウト
+Auto Layout,オートレイアウト
+Constraints,制約
+Prototype,プロトタイプ
+Prototyping,プロトタイピング
+Inspect,検査
+Assets,アセット
+Plugin,プラグイン
+Plugins,プラグイン
+Library,ライブラリ
+Libraries,ライブラリ
+Styles,スタイル
+Effects,エフェクト
+Effect,エフェクト
+Fill,塗り
+Fills,塗り
+Stroke,線
+Strokes,線
+Opacity,不透明度
+Blend mode,ブレンドモード
+Rectangle,長方形
+Ellipse,楕円
+Circle,円
+Line,線
+Arrow,矢印
+Pen,ペン
+Text,テキスト
+Vector,ベクター
+Boolean,ブーリアン
+Union,合体
+Subtract,型抜き
+Intersect,交差
+Exclude,除外
+Flatten,統合
+Outline stroke,アウトライン化
+Align,整列
+Alignment,整列
+Distribute,分布
+Export,エクスポート
+Exporting,エクスポート中
+Exported,エクスポート済み
+Import,インポート
+Importing,インポート中
+Imported,インポート済み
+Share,共有
+Sharing,共有中
+Shared,共有済み
+Comment,コメント
+Comments,コメント
+Version history,バージョン履歴
+Pages,ページ
+Page,ページ
+Canvas,キャンバス
+Zoom,ズーム
+Zoom in,拡大
+Zoom out,縮小
+Grid,グリッド
+Grids,グリッド
+Guides,ガイド
+Guide,ガイド
+Rulers,ルーラー
+Snap,スナップ
+Lock,ロック
+Locking,ロック中
+Locked,ロック済み
+Unlock,ロック解除
+Unlocking,ロック解除中
+Unlocked,ロック解除済み
+Rename,名前を変更
+Renaming,名前を変更中
+Renamed,名前を変更済み
+Properties,プロパティ
+Property,プロパティ
+Design,デザイン
+Designing,デザイン中
+Detach,切り離す
+Detaching,切り離し中
+Detached,切り離し済み
+Reset,リセット
+Resetting,リセット中
+Undo,元に戻す
+Redo,やり直す
+Copy,コピー
+Paste,貼り付け
+Pasting,貼り付け中
+Cut,切り取り
+Select,選択
+Selecting,選択中
+Selected,選択済み
+Selection,選択
+Deselect,選択解除
+Select all,すべて選択
+Mask,マスク
+Masking,マスク中
+Scale,拡大縮小
+Scaling,拡大縮小中
+Rotate,回転
+Rotating,回転中
+Rotated,回転済み
+Flip,反転
+Flip horizontal,左右反転
+Flip vertical,上下反転
+Send to back,最背面へ
+Bring to front,最前面へ
+Send backward,背面へ
+Bring forward,前面へ
+Color,色
+Colors,色
+Gradient,グラデーション
+Gradients,グラデーション
+Image,画像
+Images,画像
+Typography,タイポグラフィ
+Font,フォント
+Fonts,フォント
+Font size,フォントサイズ
+Line height,行の高さ
+Letter spacing,文字間隔
+Paragraph,段落
+Paragraphs,段落
+Resize,リサイズ
+Resizing,リサイズ中
+Responsive,レスポンシブ
+Preview,プレビュー
+Previewing,プレビュー中
+Interaction,インタラクション
+Trigger,トリガー
+Triggers,トリガー
+Action,アクション
+Actions,アクション
+Animation,アニメーション
+Animations,アニメーション
+Animating,アニメーション中
+Transition,トランジション
+Transitions,トランジション
+Easing,イージング
+Duration,時間
+Delay,遅延
+Overflow,オーバーフロー
+Scrolling,スクロール
+Scroll,スクロール
+Navigate,ナビゲート
+Navigation,ナビゲーション
+Swap,スワップ
+Swapping,スワップ中
+Width,幅
+Height,高さ
+Size,サイズ
+Radius,半径
+Corner radius,角の半径
+Border,ボーダー
+Borders,ボーダー
+Shadow,シャドウ
+Shadows,シャドウ
+Blur,ぼかし
+Padding,パディング
+Margin,マージン
+Gap,間隔
+Wrap,折り返し
+Wrapping,折り返し中
+Align left,左揃え
+Align center,中央揃え
+Align right,右揃え
+Align top,上揃え
+Align bottom,下揃え
+Justify,両端揃え
+Center,中央
+Left,左
+Right,右
+Top,上
+Bottom,下
+Horizontal,水平
+Vertical,垂直
+Absolute,絶対
+Relative,相対
+Fixed,固定
+Sticky,スティッキー
+Visible,表示
+Hidden,非表示
+Collapse,折りたたむ
+Collapsed,折りたたみ済み
+Expand,展開
+Expanded,展開済み
+Expanding,展開中
+Add,追加
+Adding,追加中
+Added,追加済み
+Remove,削除
+Removing,削除中
+Removed,削除済み
+Insert,挿入
+Inserting,挿入中
+Inserted,挿入済み
+Replace,置換
+Replacing,置換中
+Replaced,置換済み
+Apply,適用
+Applying,適用中
+Applied,適用済み
+Clear,クリア
+Clearing,クリア中
+Cleared,クリア済み
+Upload,アップロード
+Uploading,アップロード中
+Uploaded,アップロード済み
+Download,ダウンロード
+Downloading,ダウンロード中
+Downloaded,ダウンロード済み
+Link,リンク
+Links,リンク
+Linking,リンク中
+Linked,リンク済み
+Unlink,リンク解除
+URL,URL
+Hover,ホバー
+Click,クリック
+Press,プレス
+Focus,フォーカス
+Active,アクティブ
+Disabled,無効
+Enabled,有効
+Default,デフォルト
+Custom,カスタム
+None,なし
+All,すべて
+Current,現在
+New,新規
+Empty,空
+Required,必須
+Optional,任意
+Error,エラー
+Warning,警告
+Success,成功
+Info,情報
+Pending,保留中
+Processing,処理中
+Complete,完了
+Completed,完了済み
+Failed,失敗
+Retry,再試行
+Retrying,再試行中
+Refresh,更新
+Refreshing,更新中
+Sync,同期
+Syncing,同期中
+Synced,同期済み
+Connect,接続
+Connecting,接続中
+Connected,接続済み
+Disconnect,切断
+Disconnecting,切断中
+Disconnected,切断済み
+Online,オンライン
+Offline,オフライン
+Publish to,公開先
+Publish changes,変更を公開
+Stage for publish,公開用にステージング
+Staged,ステージング済み
+Staging,ステージング中
