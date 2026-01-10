@@ -92,6 +92,8 @@ function countOccurrences(haystack, needle) {
 
 /**
  * テキストを翻訳し、どの用語が何回置換されたかも返す
+ * 単語境界（\b）を使って完全一致で置換する（部分一致を防ぐ）
+ * 例: "Publish" は翻訳されるが、"Publishing" は別エントリとして扱う
  * @returns {{ text: string, termCounts: Record<string, number> } | null}
  */
 function translateTextWithStats(inputText, pairs, opts = {}) {
@@ -106,25 +108,18 @@ function translateTextWithStats(inputText, pairs, opts = {}) {
   for (const [en, ja] of pairs) {
     if (!en) continue;
 
-    if (caseInsensitive) {
-      const re = new RegExp(escapeRegex(en), "gi");
-      if (!re.test(text)) continue;
-      // 回数推定（厳密ではないが実用上OK）
-      const before = text;
-      text = text.replace(re, ja);
-      if (text !== before) {
-        changed = true;
-        // 簡易カウント：before上での出現回数を使う
-        termCounts[en] = (termCounts[en] ?? 0) + (before.match(re)?.length ?? 0);
-      }
-    } else {
-      if (!text.includes(en)) continue;
-      const c = countOccurrences(text, en);
-      text = text.replaceAll(en, ja);
-      if (c > 0) {
-        changed = true;
-        termCounts[en] = (termCounts[en] ?? 0) + c;
-      }
+    // 単語境界を使って完全一致で置換（部分一致を防ぐ）
+    const flags = caseInsensitive ? "gi" : "g";
+    const re = new RegExp(`\\b${escapeRegex(en)}\\b`, flags);
+
+    const matches = text.match(re);
+    if (!matches) continue;
+
+    const before = text;
+    text = text.replace(re, ja);
+    if (text !== before) {
+      changed = true;
+      termCounts[en] = (termCounts[en] ?? 0) + matches.length;
     }
   }
 
