@@ -342,3 +342,284 @@ Publish changes,変更を公開
 Stage for publish,公開用にステージング
 Staged,ステージング済み
 Staging,ステージング中
+Dashboard,ダッシュボード
+Marketplace,マーケットプレイス
+Overview,概要
+Hire a Certified Partner,認定パートナーを雇う
+Templates,テンプレート
+Resources,リソース
+Community,コミュニティ
+Ebooks,電子書籍
+Forum,フォーラム
+Blog,ブログ
+Notifications,通知
+Account settings,アカウント設定
+Workspaces,ワークスペース
+Sign out,サインアウト
+All sites,全てのサイト
+Client management,クライアント管理
+Billing,請求
+Apps & Integrations,アプリと連携
+Libraries & Templates,ライブラリとテンプレート
+Date created,作成日
+Grid view,グリッド表示
+List view,リスト表示
+Add new folder,新しいフォルダを追加
+Invite,招待
+New site,新しいサイト
+Building,構築中
+Deployed,公開済み
+Site settings,サイト設定
+Starter site,スターターサイト
+App Gen,アプリ生成
+Insights,インサイト
+Navigator,ナビゲーター
+Learning Assistant,学習アシスタント
+Audits,監査
+Find anything,検索
+Video Tutorials,動画チュートリアル
+Expand all,すべて展開
+Add Elements,要素を追加
+Style Selectors,スタイルセレクタ
+Open localization settings,ローカライズ設定を開く
+Unpin the Navigator,ナビゲーターの固定を解除
+Display,ディスプレイ
+Block,ブロック
+Flex,フレックス
+Min W,最小幅
+Min H,最小高さ
+Max W,最大幅
+Max H,最大高さ
+Ratio,比率
+Box size,ボックスサイズ
+border-box,ボーダーボックス
+content-box,コンテンツボックス
+Fit,フィット
+Static,静的
+Float,フロート
+Weight,ウェイト
+Decor,装飾
+Strikethrough,取り消し線
+Overline,上線
+More type options,タイプの詳細オプション
+Text indent,テキストインデント
+Italicize,斜体
+Truncate,省略
+Ellipsis,省略記号
+Text shadows,テキストシャドウ
+Backgrounds,背景
+Image & gradient,画像とグラデーション
+Clipping,クリッピング
+All corners,すべての角
+Individual corners,個別の角
+Blending,ブレンド
+Outline,アウトライン
+Box shadows,ボックスシャドウ
+2D & 3D transforms,2D・3D変形
+Backdrop filters,背景フィルター
+Custom properties,カスタムプロパティ
+More options,その他のオプション
+Create component,コンポーネントを作成
+Select a class or tag,クラスまたはタグを選択
+Canvas settings,キャンバス設定
+Base breakpoint,基本ブレークポイント
+Tablet,タブレット
+Larger breakpoints,大きいブレークポイント
+Desktop,デスクトップ
+Affects all resolutions,すべての解像度に影響
+Component Library,コンポーネントライブラリ
+Support,サポート
+Updates,アップデート
+General,一般
+Team,チーム
+Plans,プラン
+Demo,デモ
+Archive,アーカイブ
+Account,アカウント
+Learn,学習
+Home,ホーム
+Agency Workspace,エージェンシーワークスペース
+Switch between grid view and list view,グリッド表示とリスト表示を切り替え
+sites,サイト
+site,サイト
+Legacy Editor,レガシーエディター
+Name,名前
+Folder,フォルダ
+Icons,アイコン
+Favicon,ファビコン
+Webclip,ウェブクリップ
+Localization,ローカライゼーション
+Time zone,タイムゾーン
+Detect my time zone,タイムゾーンを検出
+Language code,言語コード
+Website password,ウェブサイトパスワード
+Password protection,パスワード保護
+Showcase,ショーケース
+Creator credits,クリエイタークレジット
+Make template,テンプレートを作成
+Webflow branding,Webflowブランディング
+Real-time collaboration,リアルタイムコラボレーション
+Site ID,サイトID
+Total asset size,総アセットサイズ
+Last published,最終公開日
+Clone of,クローン元
+Last updated,最終更新日
+Form submissions,フォーム送信
+Collection items,コレクションアイテム
+Site activity,サイトアクティビティ
+Date,日付
+Event,イベント
+User,ユーザー
+View more,もっと見る
+Learn more,詳細を見る
+visitors,訪問者
+search results,検索結果
+Search engine optimization,検索エンジン最適化
+Indexing,インデックス
+subdomain indexing,サブドメインインデックス
+Traffic controls,トラフィックコントロール
+Allow Search Engine Crawlers,検索エンジンクローラーを許可
+Allow Artificial Intelligence Bots,AIボットを許可
+Sitemap,サイトマップ
+Auto-generate sitemap,サイトマップを自動生成
+verification,認証
+verification ID,認証ID
+Global canonical tag URL,グローバル正規タグURL
+canonical URL,正規URL
+trailing slashes,末尾のスラッシュ
+duplicate content,重複コンテンツ
+Installed,インストール済み
+Configure,設定する
+environment,環境
+review changes,変更をレビュー
+privately,非公開で
+public URLs,公開URL
+domain,ドメイン
+alphanumeric,英数字
+dashes,ダッシュ
+Make staging private,ステージングを非公開にする
+restrict access,アクセスを制限
+members,メンバー
+guests,ゲスト
+Enterprise plans,エンタープライズプラン
+contact sales,営業に連絡
+Production,本番
+Add a custom domain,カスタムドメインを追加
+buy a domain,ドメインを購入
+custom domain hosting,カスタムドメインホスティング
+root domain,ルートドメイン
+DNS provider,DNSプロバイダー
+manual setup,手動設定
+SSL certificate,SSL証明書
+301 redirects,301リダイレクト
+Redirect old URLs to new ones,古いURLを新しいURLにリダイレクト
+CSV file,CSVファイル
+wild card rules,ワイルドカードルール
+SEO ranking,SEOランキング
+wildcard redirect rules,ワイルドカードリダイレクトルール
+Last modified,最終更新
+Delete all,すべて削除
+Old path,旧パス
+New path,新パス
+redirects,リダイレクト
+Advanced publishing options,詳細な公開オプション
+Performance,パフォーマンス
+Asynchronously load JS,JSを非同期で読み込む
+Minify HTML,HTMLを圧縮
+Minify CSS,CSSを圧縮
+Minify JS,JSを圧縮
+Per page CSS,ページ別CSS
+Security,セキュリティ
+Enable HSTS for subdomains,サブドメインのHSTSを有効化
+Enable HSTS preload header,HSTSプリロードヘッダーを有効化
+Use secure frame headers,セキュアフレームヘッダーを使用
+Custom SSL certificates,カスタムSSL証明書
+Add certificate,証明書を追加
+Site Access,サイトアクセス
+Publishing,公開設定
+Forms,フォーム
+Fonts,フォント
+Backups,バックアップ
+Integrations,連携
+Custom Code,カスタムコード
+Visit website,ウェブサイトを訪問
+Transfer site,サイトを移行
+Archive site,サイトをアーカイブ
+Duplicate site,サイトを複製
+Unpublish site,サイトを非公開
+Variables,変数
+Apps,アプリ
+Mobile,モバイル
+Class,クラス
+Strategy,戦略
+Preferences,環境設定
+Converter,コンバーター
+Icon,アイコン
+and down,以下
+Log in,ログイン
+Usage,使用量
+Code,コード
+roles,ロール
+role,ロール
+users,ユーザー
+admins,管理者
+seats,シート
+content,コンテンツ
+branding,ブランディング
+added,追加された
+people,ユーザー
+On,オン
+Off,オフ
+Owner,オーナー
+manager,マネージャー
+reviewer,レビュアー
+transparent,透過
+recommended,推奨
+supported,サポート
+upgrade,アップグレード
+Site roles,サイトロール
+Site role,サイトロール
+Can publish,公開可能
+Owner info,オーナー情報
+Site manager,サイトマネージャー
+Content editor,コンテンツエディター
+More actions,その他のアクション
+seats used,シート使用中
+Class Sync,クラス同期
+SVG Icon Converter,SVGアイコンコンバーター
+in Webflow,Webflowで
+Legacy Editor access,レガシーエディターアクセス
+Legacy Editor branding,レガシーエディターブランディング
+Search sites,サイトを検索
+Site preview,サイトプレビュー
+menu dropdown,メニュードロップダウン
+restriction setting,制限設定
+Upgrade to,にアップグレード
+px and down,px以下
+991px and down,991px以下
+767px and down,767px以下
+479px and down,479px以下
+Update,更新
+Made,作成
+Site access,サイトアクセス
+code,コード
+Reviewer,レビュアー
+Designer,デザイナー
+guest,ゲスト
+team,チーム
+legacy,レガシー
+Manage,管理する
+edit,編集する
+prevent,防止
+turning,切り替え
+features,機能
+replace,置き換える
+enabled,有効
+available,利用可能
+Users,ユーザー
+log into,ログインする
+adding,追加
+example,例
+end,終わり
+their,彼らの
+website,ウェブサイト
