@@ -198,6 +198,40 @@ const SKIP_SELECTORS = [
   '[class*="userContent"]',
   '[class*="custom-text"]',
   '[class*="customText"]',
+
+  // フォント一覧・フォント選択UI（フォント名を翻訳しない）
+  '[class*="font-list"]',
+  '[class*="fontList"]',
+  '[class*="FontList"]',
+  '[class*="font-picker"]',
+  '[class*="fontPicker"]',
+  '[class*="FontPicker"]',
+  '[class*="font-family"]',
+  '[class*="fontFamily"]',
+  '[class*="FontFamily"]',
+  '[class*="font-menu"]',
+  '[class*="fontMenu"]',
+  '[class*="FontMenu"]',
+  '[class*="font-dropdown"]',
+  '[class*="fontDropdown"]',
+  '[class*="FontDropdown"]',
+  '[class*="typography-font"]',
+  '[class*="typographyFont"]',
+  '[class*="TypographyFont"]',
+
+  // コンポーネント一覧（ユーザー定義名を翻訳しない）
+  '[class*="component-list"]',
+  '[class*="componentList"]',
+  '[class*="ComponentList"]',
+  '[class*="component-item"]',
+  '[class*="componentItem"]',
+  '[class*="ComponentItem"]',
+  '[class*="symbol-list"]',
+  '[class*="symbolList"]',
+  '[class*="SymbolList"]',
+  '[class*="symbol-item"]',
+  '[class*="symbolItem"]',
+  '[class*="SymbolItem"]',
 ];
 
 // セレクタを結合して一度にマッチできるようにする
